@@ -288,63 +288,6 @@ data in case her primary instance is damaged/lost etc.
 
 </section>
 
-<h3>Alice wants to publish public plaintext about Bob or Carl in a censorship resistant manner.
-</h3>
-
-<p>
-Alice wants to be able to store data that is plaintext anonymous visible, but
-authenticated. Alice does not want anyone to prevent Alice from publishing
-public plaintext data.
-</p>
-
-<p>
-Alice wants to be able to store plaintext and plaintext metadata on servers that
-she does not operate.
-</p>
-
-
-<h3>Enable storage of semantic data and the ability to retrieve it via a self-describing API (based on its schema, type, etc.)
-</h3>
-
-<ol>
-    <li>
-As a user, I want to add schema.org _Offer_ objects so that anyone in the
-world can crawl it and create a decentralized app that displays the salable
-goods.
-    </li>
-    <li>
-As a developer, I want to create a DID for my code package and publish its
-repo/code data as a schema.org _SoftwareSourceCode_ object so anyone can
-crawl it and create a decentralized app to visualize packages across the DID-
-based ‘DPM’ (think NPM, but decentralized)
-    </li>
-    <li>
-As a business owner, I want to publish various schema-based objects that
-define what my business is.
-    </li>
-</ol>
-
-<h3>Provide a mechanism for receiving and handling a queue of task-based messages. </h3>
-
-<p>
-As a user, I would like a mechanism where other entities can send me actionable
-message objects that are synced across my SDS instances, so that I can act on
-them in whatever way is appropriate for the type of message. If subsequent
-messages are exchanged as a result of an initiating message, the subsequent
-messages should be referentially tied together (e.g. thread back to the parent).
-</p>
-
-<h3>Alice wants to upload executable code or configuration management that service providers will run based on an event system.
-</h3>
-
-<p>
-Event Types, Event Subscriptions, Event Handlers, data and program should be
-storable in SDS. Similar to systems which watch file changes and transpile, or
-forward messages... "IF this THEN that"... could be set of predefined workflows,
-or executable code. Examples of similar systems: Github Actions, Zapier, IFTT,
-OpenFaaS.
-</p>
-
 <h3>Terminate a relationship with a service provider</h3>
 
 <p>
@@ -353,15 +296,6 @@ service providers in a manner that does not disclose anything about the future
 state or location of the user’s data. Ensure the user can verify or obtain a
 verifiable certification from service provider that their data has been, if
 requested, purged from the provider's system (confirming right to be forgotten).
-</p>
-
-<h3>Sharding data</h3>
-
-<p>
-Ensure users have the ability to shard their data, or create M of N key
-scenarios across one or multiple providers. Provide options to the user which
-allow for either the service provider to manage sharding or allow sharding that
-is completely hidden from a service provider.
 </p>
 
 </section>
